@@ -1,0 +1,7 @@
+Reading BLOCKS - 0.10200000 ms 
+Reading ONE CHARACTER - 3.45600000 ms 
+Reading BLOCKS - 0.16500000 ms 
+Reading BLOCKS - 0.14800000 ms 
+Reading ONE CHARACTER - 3.83100000 ms 
+Reading BLOCKS - 0.08200000 ms 
+

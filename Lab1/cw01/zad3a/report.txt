@@ -1,0 +1,200 @@
+-------------STATIC LIBRARY-------------
+-------------WELCOME TO CLI------------------
+Type 'help' to know the available commands
+init 6   Table created
+----- Real Time: 0.01900000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.c   Block added
+----- Real Time: 0.17200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.h   Block added
+----- Real Time: 0.17100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.c   Block added
+----- Real Time: 0.17700000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.h   Block added
+----- Real Time: 0.13100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count main.c   Block added
+----- Real Time: 0.11300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count makefile   Block added
+----- Real Time: 0.11900000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 0     74  254 2017 classifier.c
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 1    21  52 335 classifier.h
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 2    101  287 2405 library.c
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 3    38  83 685 library.h
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 4    173  514 5213 main.c
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 5     69  203 1849 makefile
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+destroy     Table destroyed
+----- Real Time: 0.00100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+PROGRAM CLOSED
+-------------SHARED LIBRARY-------------
+-------------WELCOME TO CLI------------------
+Type 'help' to know the available commands
+init 6   Table created
+----- Real Time: 0.01200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.c   Block added
+----- Real Time: 0.13100000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.h   Block added
+----- Real Time: 0.18700000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.c   Block added
+----- Real Time: 0.18500000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.h   Block added
+----- Real Time: 0.19500000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count main.c   Block added
+----- Real Time: 0.21300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count makefile   Block added
+----- Real Time: 0.20300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 0     74  254 2017 classifier.c
+----- Real Time: 0.00600000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 1    21  52 335 classifier.h
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 2    101  287 2405 library.c
+----- Real Time: 0.00400000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 3    38  83 685 library.h
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 4    173  514 5213 main.c
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 5     69  203 1849 makefile
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00800000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+destroy     Table destroyed
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+PROGRAM CLOSED
+-------------DYNAMIC LIBRARY-------------
+-------------WELCOME TO CLI------------------
+Type 'help' to know the available commands
+init 6   Table created
+----- Real Time: 0.02700000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.c   Block added
+----- Real Time: 0.19600000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count classifier.h   Block added
+----- Real Time: 0.15200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.c   Block added
+----- Real Time: 0.15000000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count library.h   Block added
+----- Real Time: 0.13500000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count main.c   Block added
+----- Real Time: 0.19000000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+count makefile   Block added
+----- Real Time: 0.21900000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 0     74  254 2017 classifier.c
+----- Real Time: 0.00600000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 1    21  52 335 classifier.h
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 2    101  287 2405 library.c
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 3    38  83 685 library.h
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 4    173  514 5213 main.c
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+show 5     69  203 1849 makefile
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.01000000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00200000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+delete index 0 Block deleted
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+destroy     Table destroyed
+----- Real Time: 0.00300000 ms ----- User Time: 0.00000000 ms ----- System Time: 0.00000000 ms -----
+                                                                         
+PROGRAM CLOSED
+
+
+Wnioski: Czas użytkownika oraz czas systemowy dla wykonania tego programu jest zbyt mały, dlatego dla każdej operacji
+pomiar wynosi w przybliżeniu zero. Inaczej jest w przypadku czasu rzeczywistego, który pomimimo że jest bardzo mały różni się
+w zależności od operacji oraz rodzaju biblioteki. Dla operacji inicjalizacji tablicy oraz zliczania najlepiej poradziła sobie
+biblioteka współdzielona (shared). Operacja show najszybciej działała podczas używania biblioteki statycznej. Natomiast operacja
+delete równie szybko wykonywała polecania zarówno dla biblioteki ładowanej dynamicznie jak i tej statycznej.
+Uwzględniając fakt iż przedstawione liczby są bardzo małę, wszystkie biblioteki poradziły sobie równie dobrze.

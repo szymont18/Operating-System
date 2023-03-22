@@ -1,0 +1,20 @@
+init 6
+count classifier.c
+count classifier.h
+count library.c
+count library.h
+count main.c
+count makefile
+show 0
+show 1
+show 2
+show 3
+show 4
+show 5
+delete index 0
+delete index 0
+delete index 0
+delete index 0
+delete index 0
+delete index 0
+destroy
