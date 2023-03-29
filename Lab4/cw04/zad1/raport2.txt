@@ -1,0 +1,46 @@
+Option: 'IGNORE'
+PARENT PROCESS - IGNORE SIGNAL 'User defined signal 1'
+CHILD (FORK) PROCESS - IGNORE SIGNAL 'User defined signal 1'
+CHILD (EXEC) PROCESS - IGNORE SIGNAL 'User defined signal 1'
+# Ustawione ignorowanie w procesie potomnym jest dziedziczone przez procesy potomne, zarówno po wywołaniu funkcji
+  fork() jak i execv()
+
+
+Option: 'HANDLER'
+PARENT PROCESS - SIGNAL HANDLED 'User defined signal 1'
+CHILD (FORK) PROCESS - SIGNAL HANDLED 'User defined signal 1'
+CHILD (EXEC) PROCESS
+Sygnał użytkownika 1
+# Ustawienie handlera, w procesie rodzica ( który wypisuje na standardowe wyjście hasło: ,,SIGNAL HANDLED") jest
+  dziedziczone tylko po wywołaniu funckji fork(). Funckja execv() wykonuje kod znajdujący się w innym pliku,
+  co może być powodem obsługi sygnału w sposób standardowy (domyślny).
+
+
+Option: 'MASK'
+PARENT PROCESS - MASK SIGNAL 'User defined signal 1'
+CHILD (FORK) PROCESS - MASK SIGNAL 'User defined signal 1'
+CHILD (EXEC) PROCESS - MASK SIGNAL 'User defined signal 1'
+# Utworzenie i ustawienie maski w procesie rodzica jest dziedziczone przez procesy potomne ( zarówno po wywołaniu funkcji
+  fork() jak i funkcji execv())
+
+
+
+Option: 'PENDING'
+PARENT PROCESS - PENDING SIGNAL 'User defined signal 1'
+CHILD (FORK) PROCESS - NOT! PENDING SIGNAL 'User defined signal 1'
+CHILD (EXEC) PROCESS - PENDING SIGNAL 'User defined signal 1'
+# W procesie rodzica została ustawiona maska, blokująca wybrany sygnał (domyślnie SIGUSR1). Następnie sygnał ten został
+  wysłany do bieżącego procesu. Został on więc zapisany w kolejce oczekujących sygnałów w procesie rodzica.
+  Oprócz tego widoczny jest on również w procesie potomnym po wywołaniu funckji execv() ale NIE jest widoczny po wywołaniu
+  funkcji fork().
+
+
+# Podsumowanie
+D - Dziedziczony
+N - Niedziedziczony
+
+OPTION      FORK()      EXECV()
+IGNORE        D           D
+HANDLER       D           N
+MASK          D           D
+PENDING       N           D

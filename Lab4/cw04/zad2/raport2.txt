@@ -1,0 +1,100 @@
+OPTION: 'SIGINFO'
+#############################
+Handling signal...
+Signal number: 10
+PID: 5413
+PARENT PID 5107
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 0
+__________________________________________________
+Handling signal...
+Signal number: 10
+PID: 5413
+PARENT PID 5107
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 118
+__________________________________________________
+Handling signal...
+Signal number: 10
+PID: 5414
+PARENT PID 5413
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 0
+
+# Flaga SIGINFO pozwala na ustawienie handlera na funkcję o parametrach: void(int signo, siginfo_t *info, void *other).
+  W argumencie typu siginfo_t znajduję się mnóstwo informacji o procesie wysyłającym sygnał (np. PID, Real User ID).
+  Dodatkowo przydatną strukturą może okazać się union sigval, która również znajduję się w zmiennej info. Pozwala ona na
+  przesłanie dodatkowych informacji pomiędzy procesami. Przykład działania ilustruje obsługa drugiego sygnału SIGUSR1, gdzie
+  pole Additional info równe jest 118.
+
+
+OPTION: 'NOCLDSTOP'
+#############################
+SA_NOCLDSTOP not ative
+Sending SIGSTOP to child process
+
+Handling signal...
+Signal number: 17
+PID: 6609
+PARENT PID 6331
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 19
+__________________________________________________
+Sending SIGCONT to child process
+
+Handling signal...
+Signal number: 17
+PID: 6609
+PARENT PID 6331
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 18
+__________________________________________________
+
+Flag SA_NOCLDSTOP is active
+Sending SIGSTOP to child process
+Sending SIGCONT to child process
+Sending SIGSTOP to child process
+Sending SIGCONT to child process
+Sending SIGSTOP to child process
+Sending SIGCONT to child process
+Sending SIGSTOP to child process
+Sending SIGCONT to child process
+Sending SIGSTOP to child process
+Sending SIGCONT to child process
+Sending SIGKILL to child process
+Handling signal...
+Signal number: 17
+PID: 6610
+PARENT PID 6331
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 9
+
+
+# Flaga SA_NOCLDSTOP blokuje sygnały SIGCHILD od procesów potomnych które zostały zatrzymane badź wznowiły działanie.
+  Sygnał ten jest wysyłany tylko, jeżeli proces potomny zostanie unicestwiony, badź zakończony.
+  W powyższym przykładzie tworzę proces potomny do którego wysyłam na zmianę sygnały SIGSTOP i SIGCONT. Pierwsze dwa sygnały
+  są obsługiwane przez handler, gdyż flaga SA_NOCLDSTOP nie została jeszcze ustawiona. Po jej ustawieniu, następne 10 sygnałów
+  jest blokowanych. Dopiero sygnał SIGKILL, kończący proces potomny jest widoczny i obsłużony.
+
+
+OPTION: 'RESETHAND'
+#############################
+Handling signal...
+Signal number: 10
+PID: 6636
+PARENT PID 6331
+Real user ID of sending process: 1000
+Potencial error number: 0
+Additional info: 0
+__________________________________________________
+Sygnał użytkownika 1
+
+# Flaga SA_RESETHAND powoduje resetowanie handlera do stanu domyślnego po jego pierwszym wywołaniu. W przykładzie powyżej
+  handler ustawiony został na sygnał SIGUSR1. Dla pierwszego sygnału SIGUSR1 handler wykonał się i wypisał na standardowe wyjście
+  informację o procesie. Drugi sygnał SIGUSR1 nie został już obsłużony przez HANDLER.
