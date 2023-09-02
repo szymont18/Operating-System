@@ -1,0 +1,394 @@
+2023:06:13::10:53:05 --- [Server] szymek is trying to log in with 7 fd
+
+2023:06:13::10:53:05 --- [Server] szymek log in
+
+2023:06:13::10:53:08 --- [Server] remek is trying to log in with 8 fd
+
+2023:06:13::10:53:08 --- [Server] remek log in
+
+2023:06:13::10:53:10 --- [Server] List clients
+
+2023:06:13::10:53:16 --- [Server] Sending message 'siema' to szymek
+
+2023:06:13::10:53:26 --- [Server] Sending message 'co tam?' to remek
+
+2023:06:13::10:53:36 --- [Server] Sending message [remek] >> broadcast to szymek
+
+2023:06:13::10:53:36 --- [Server] Sending message [remek] >> broadcast to remek
+
+2023:06:13::10:53:41 --- [Server] List clients
+
+2023:06:13::10:53:43 --- [Server] Removed client szymek
+
+2023:06:13::10:53:47 --- [Server] Removed client remek
+
+2023:06:13::10:57:14 --- [Server] szymek is trying to log in with 7 fd
+
+2023:06:13::10:57:14 --- [Server] szymek log in
+
+2023:06:13::10:57:14 --- [Server] Ping szymek
+
+2023:06:13::10:57:14 --- [Server] Received ping respond from szymek
+
+2023:06:13::10:57:16 --- [Server] remek is trying to log in with 8 fd
+
+2023:06:13::10:57:16 --- [Server] remek log in
+
+2023:06:13::10:57:19 --- [Server] List clients
+
+2023:06:13::10:57:24 --- [Server] Ping remek
+
+2023:06:13::10:57:24 --- [Server] Received ping respond from remek
+
+2023:06:13::10:57:25 --- [Server] Sending message 'siema' to szymek
+
+2023:06:13::10:57:33 --- [Server] Sending message [szymek] >> broadcast to szymek
+
+2023:06:13::10:57:33 --- [Server] Sending message [szymek] >> broadcast to remek
+
+2023:06:13::10:57:34 --- [Server] Ping szymek
+
+2023:06:13::10:57:34 --- [Server] Received ping respond from szymek
+
+2023:06:13::10:57:38 --- [Server] List clients
+
+2023:06:13::10:57:39 --- [Server] Removed client remek
+
+2023:06:13::10:57:44 --- [Server] Ping szymek
+
+2023:06:13::10:57:44 --- [Server] Received ping respond from szymek
+
+2023:06:13::10:57:45 --- [Server] Removed client szymek
+
+2023:06:14::08:36:25 --- [Server] szymek is trying to log in with 7 fd
+
+2023:06:14::08:36:25 --- [Server] szymek log in
+
+2023:06:14::08:36:25 --- [Server] Ping szymek
+
+2023:06:14::08:36:25 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:36:35 --- [Server] Ping szymek
+
+2023:06:14::08:36:35 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:36:45 --- [Server] Ping szymek
+
+2023:06:14::08:36:45 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:36:55 --- [Server] Ping szymek
+
+2023:06:14::08:36:55 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:37:05 --- [Server] Ping szymek
+
+2023:06:14::08:37:05 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:37:15 --- [Server] Ping szymek
+
+2023:06:14::08:37:15 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:37:25 --- [Server] Ping szymek
+
+2023:06:14::08:37:25 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:37:28 --- [Server] martyna is trying to log in with 8 fd
+
+2023:06:14::08:37:28 --- [Server] martyna log in
+
+2023:06:14::08:37:35 --- [Server] Ping martyna
+
+2023:06:14::08:37:35 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:37:45 --- [Server] Ping szymek
+
+2023:06:14::08:37:45 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:37:55 --- [Server] Ping martyna
+
+2023:06:14::08:37:55 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:38:05 --- [Server] Ping szymek
+
+2023:06:14::08:38:05 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:38:15 --- [Server] Ping martyna
+
+2023:06:14::08:38:15 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:38:20 --- [Server] kamil is trying to log in with 9 fd
+
+2023:06:14::08:38:20 --- [Server] kamil log in
+
+2023:06:14::08:38:22 --- [Server] List clients
+
+2023:06:14::08:38:25 --- [Server] Ping kamil
+
+2023:06:14::08:38:25 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:38:35 --- [Server] Ping szymek
+
+2023:06:14::08:38:35 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:38:36 --- [Server] Sending message [kamil] >> siema co tam u was to szymek
+
+2023:06:14::08:38:36 --- [Server] Sending message [kamil] >> siema co tam u was to martyna
+
+2023:06:14::08:38:36 --- [Server] Sending message [kamil] >> siema co tam u was to kamil
+
+2023:06:14::08:38:45 --- [Server] Ping martyna
+
+2023:06:14::08:38:45 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:38:51 --- [Server] Sending message 'a nic' to kami
+
+2023:06:14::08:38:51 --- [Server] Can not send message to kami
+
+2023:06:14::08:38:55 --- [Server] Ping kamil
+
+2023:06:14::08:38:55 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:39:05 --- [Server] Ping szymek
+
+2023:06:14::08:39:05 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:39:13 --- [Server] Sending message 'a nic' to kamil
+
+2023:06:14::08:39:15 --- [Server] Ping martyna
+
+2023:06:14::08:39:15 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:39:25 --- [Server] Ping kamil
+
+2023:06:14::08:39:25 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:39:35 --- [Server] Ping szymek
+
+2023:06:14::08:39:35 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:39:45 --- [Server] Ping martyna
+
+2023:06:14::08:39:45 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:39:55 --- [Server] Ping kamil
+
+2023:06:14::08:39:55 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:40:05 --- [Server] Ping szymek
+
+2023:06:14::08:40:05 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:40:15 --- [Server] Ping martyna
+
+2023:06:14::08:40:15 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:40:25 --- [Server] Ping kamil
+
+2023:06:14::08:40:25 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:40:35 --- [Server] Removed client kamil
+
+2023:06:14::08:40:35 --- [Server] Removed client kamil
+
+2023:06:14::08:40:35 --- [Server] Ping szymek
+
+2023:06:14::08:40:35 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:40:41 --- [Server] Removed client martyna
+
+2023:06:14::08:40:45 --- [Server] Ping szymek
+
+2023:06:14::08:40:45 --- [Server] Received ping respond from szymek
+
+2023:06:14::08:40:47 --- [Server] Removed client szymek
+
+2023:06:14::08:54:10 --- [Server] martyna is trying to log in with 7 fd
+
+2023:06:14::08:54:10 --- [Server] martyna log in
+
+2023:06:14::08:54:10 --- [Server] Ping martyna
+
+2023:06:14::08:54:10 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:54:13 --- [Server] kamil is trying to log in with 8 fd
+
+2023:06:14::08:54:13 --- [Server] kamil log in
+
+2023:06:14::08:54:17 --- [Server] List clients
+
+2023:06:14::08:54:20 --- [Server] Ping kamil
+
+2023:06:14::08:54:20 --- [Server] Received ping respond from kamil
+
+2023:06:14::08:54:30 --- [Server] Ping martyna
+
+2023:06:14::08:54:30 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:59:26 --- [Server] martyna is trying to log in with 7 fd
+
+2023:06:14::08:59:26 --- [Server] martyna log in
+
+2023:06:14::08:59:26 --- [Server] Ping martyna
+
+2023:06:14::08:59:26 --- [Server] Received ping respond from martyna
+
+2023:06:14::08:59:31 --- [Server] robert is trying to log in with 8 fd
+
+2023:06:14::08:59:31 --- [Server] robert log in
+
+2023:06:14::08:59:36 --- [Server] Ping robert
+
+2023:06:14::08:59:36 --- [Server] Received ping respond from robert
+
+2023:06:14::09:07:11 --- [Server] martyna is trying to log in with 7 fd
+
+2023:06:14::09:07:11 --- [Server] martyna log in
+
+2023:06:14::09:07:11 --- [Server] Ping martyna
+
+2023:06:14::09:07:11 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:07:15 --- [Server] robert is trying to log in with 8 fd
+
+2023:06:14::09:07:15 --- [Server] robert log in
+
+2023:06:14::09:07:19 --- [Server] kamil is trying to log in with 9 fd
+
+2023:06:14::09:07:19 --- [Server] Not enough space for new client
+
+2023:06:14::09:07:21 --- [Server] Ping robert
+
+2023:06:14::09:07:21 --- [Server] Received ping respond from robert
+
+2023:06:14::09:07:26 --- [Server] List clients
+
+2023:06:14::09:07:31 --- [Server] Ping martyna
+
+2023:06:14::09:07:31 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:07:41 --- [Server] Ping robert
+
+2023:06:14::09:07:41 --- [Server] Received ping respond from robert
+
+2023:06:14::09:07:47 --- [Server] Sending message 'co tam?' to robert
+
+2023:06:14::09:07:51 --- [Server] Ping martyna
+
+2023:06:14::09:07:51 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:07:56 --- [Server] Sending message [robert] >> blabla to martyna
+
+2023:06:14::09:07:56 --- [Server] Sending message [robert] >> blabla to robert
+
+2023:06:14::09:08:01 --- [Server] Ping robert
+
+2023:06:14::09:08:01 --- [Server] Received ping respond from robert
+
+2023:06:14::09:08:02 --- [Server] Removed client martyna
+
+2023:06:14::09:08:11 --- [Server] Ping robert
+
+2023:06:14::09:08:11 --- [Server] Received ping respond from robert
+
+2023:06:14::09:08:13 --- [Server] kamil is trying to log in with 10 fd
+
+2023:06:14::09:08:13 --- [Server] kamil log in
+
+2023:06:14::09:08:21 --- [Server] Ping kamil
+
+2023:06:14::09:08:21 --- [Server] Received ping respond from kamil
+
+2023:06:14::09:08:27 --- [Server] Sending message [kamil] >> jol to kamil
+
+2023:06:14::09:08:27 --- [Server] Sending message [kamil] >> jol to robert
+
+2023:06:14::09:08:31 --- [Server] Ping robert
+
+2023:06:14::09:08:31 --- [Server] Received ping respond from robert
+
+2023:06:14::09:08:35 --- [Server] Removed client robert
+
+2023:06:14::09:10:35 --- [Server] martyna is trying to log in with 7 fd
+
+2023:06:14::09:10:35 --- [Server] martyna log in
+
+2023:06:14::09:10:35 --- [Server] Ping martyna
+
+2023:06:14::09:10:35 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:10:38 --- [Server] robert is trying to log in with 8 fd
+
+2023:06:14::09:10:38 --- [Server] robert log in
+
+2023:06:14::09:10:41 --- [Server] Sending message [robert] >> siema to martyna
+
+2023:06:14::09:10:41 --- [Server] Sending message [robert] >> siema to robert
+
+2023:06:14::09:10:45 --- [Server] Ping robert
+
+2023:06:14::09:10:45 --- [Server] Received ping respond from robert
+
+2023:06:14::09:10:55 --- [Server] Ping martyna
+
+2023:06:14::09:10:55 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:10:57 --- [Server] Sending message 'hej' to robert
+
+2023:06:14::09:11:03 --- [Server] Removed client robert
+
+2023:06:14::09:11:05 --- [Server] Ping martyna
+
+2023:06:14::09:11:05 --- [Server] Received ping respond from martyna
+
+2023:06:14::09:11:10 --- [Server] kamil is trying to log in with 9 fd
+
+2023:06:14::09:11:10 --- [Server] kamil log in
+
+2023:06:14::09:11:12 --- [Server] Removed client martyna
+
+2023:06:14::09:11:15 --- [Server] Removed client martyna
+
+2023:06:14::09:11:15 --- [Server] Ping kamil
+
+2023:06:14::09:11:15 --- [Server] Received ping respond from kamil
+
+2023:06:14::09:13:03 --- [Server] kamil is trying to log in with 7 fd
+
+2023:06:14::09:13:03 --- [Server] kamil log in
+
+2023:06:14::09:13:03 --- [Server] Ping kamil
+
+2023:06:14::09:13:03 --- [Server] Received ping respond from kamil
+
+2023:06:14::09:13:10 --- [Server] robert is trying to log in with 8 fd
+
+2023:06:14::09:13:10 --- [Server] robert log in
+
+2023:06:14::09:13:13 --- [Server] Ping robert
+
+2023:06:14::09:13:13 --- [Server] Received ping respond from robert
+
+2023:06:14::09:13:15 --- [Server] st is trying to log in with 9 fd
+
+2023:06:14::09:13:15 --- [Server] st log in
+
+2023:06:14::09:13:22 --- [Server] mor is trying to log in with 10 fd
+
+2023:06:14::09:13:22 --- [Server] mor log in
+
+2023:06:14::09:13:23 --- [Server] Ping st
+
+2023:06:14::09:13:23 --- [Server] Received ping respond from st
+
+2023:06:14::09:13:28 --- [Server] Sending message [mor] >> jol to kamil
+
+2023:06:14::09:13:28 --- [Server] Sending message [mor] >> jol to robert
+
+2023:06:14::09:13:28 --- [Server] Sending message [mor] >> jol to st
+
+2023:06:14::09:13:28 --- [Server] Sending message [mor] >> jol to mor
+
+2023:06:14::09:13:33 --- [Server] Ping mor
+
+2023:06:14::09:13:33 --- [Server] Received ping respond from mor
+
